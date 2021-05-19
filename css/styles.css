@@ -1,0 +1,164 @@
+body{
+	font-family: 'Cagliostro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-image: url("../images/fondo6.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.background {	
+	min-height:100vh;
+	background-origin: border-box;	
+	padding: 150px 0;
+	text-align: center;
+}
+
+.banner {
+	background-origin: border-box;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+
+}
+
+h1{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: black;
+}
+
+h3{
+	font-size: 2.0em;
+	border: 3px solid #000;
+	padding: 20px 30px;
+	display: inline-block;
+	background-color: #d4cac9;
+	opacity: .7;
+}
+
+.logo{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	margin-top: 16px;
+    margin-left: 16px;
+}
+
+.box{
+	float: right;
+	width: 48%;
+	padding: 5px 5px ;
+	color: black;
+	display: inline-flex;	
+	justify-content: space-between;	
+	position: absolute;
+	top: 0;	
+	font-weight: bold;
+	background-color: #a19392;
+	opacity: .6;
+	background-origin: border-box;
+}
+
+.container{
+  margin: auto;
+  background-color: #d4cac9;
+  width: 800px;
+  padding: 30px;
+  background-origin: border-box;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+ }
+
+ul.slider li:first-child {
+    opacity: 1; 
+}
+
+ul.slider li:target {
+    opacity: 1; 
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #a19392;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+footer {
+	background-color: #a19392;
+	color: white;
+	margin-top: 50px;
+	font-weight: 500;
+	font-size: 24px;
+	float: right;
+	width: 100%;
+	text-align: right;
+	padding: 0px 10px;
+	background-origin: border-box;
+}
+
+.footer_redes img{
+
+  width: 20px;
+  height: 20px;
+  
+ }
+
+ h4 {
+ 	font-size:15px;
+ 	
+ }
+
